@@ -9,7 +9,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold sm:text-4xl mb-4">{t('about.title')}</h2>
-          <div className="h-1 w-20 bg-blue-600 dark:bg-blue-400 mx-auto"></div>
+          <div className="h-1 w-20 bg-[var(--accent-color)] mx-auto"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -46,24 +46,24 @@ export default function About() {
             <h3 className="text-2xl font-bold mb-6 text-center">{t('about.journey')}</h3>
 
             <div className="space-y-8">
-              <div className="relative pl-8 border-l-2 border-blue-600 dark:border-blue-400">
-                <div className="absolute w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full -left-[9px] top-0"></div>
+              <div className="relative pl-8 border-l-2 border-[var(--accent-color)]">
+                <div className="absolute w-4 h-4 bg-[var(--accent-color)] rounded-full -left-[9px] top-0"></div>
                 <h4 className="text-xl font-semibold">{t('about.education')}</h4>
                 <p className="text-foreground/70">
                   {t('about.education.desc')}
                 </p>
               </div>
 
-              <div className="relative pl-8 border-l-2 border-blue-600 dark:border-blue-400">
-                <div className="absolute w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full -left-[9px] top-0"></div>
+              <div className="relative pl-8 border-l-2 border-[var(--accent-color)]">
+                <div className="absolute w-4 h-4 bg-[var(--accent-color)] rounded-full -left-[9px] top-0"></div>
                 <h4 className="text-xl font-semibold">{t('about.experience')}</h4>
                 <p className="text-foreground/70">
                   {t('about.experience.desc')}
                 </p>
               </div>
 
-              <div className="relative pl-8 border-l-2 border-blue-600 dark:border-blue-400">
-                <div className="absolute w-4 h-4 bg-blue-600 dark:bg-blue-400 rounded-full -left-[9px] top-0"></div>
+              <div className="relative pl-8 border-l-2 border-[var(--accent-color)]">
+                <div className="absolute w-4 h-4 bg-[var(--accent-color)] rounded-full -left-[9px] top-0"></div>
                 <h4 className="text-xl font-semibold">{t('about.aviation')}</h4>
                 <p className="text-foreground/70">
                   {t('about.aviation.desc')}

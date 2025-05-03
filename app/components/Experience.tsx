@@ -151,7 +151,7 @@ export default function Experience() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold sm:text-4xl mb-4">{t('experience.title')}</h2>
-          <div className="h-1 w-20 bg-blue-600 dark:bg-blue-400 mx-auto"></div>
+          <div className="h-1 w-20 bg-[var(--accent-color)] mx-auto"></div>
           <p className="mt-6 text-lg text-foreground/70 max-w-3xl mx-auto">
             {t('experience.subtitle')}
           </p>
@@ -163,7 +163,7 @@ export default function Experience() {
               <div className="md:flex justify-between items-start mb-4">
                 <div>
                   <h3 className="text-2xl font-bold">{exp.position}</h3>
-                  <p className="text-xl text-blue-600 dark:text-blue-400">{exp.company}</p>
+                  <p className="text-xl text-[var(--accent-color)]">{exp.company}</p>
                   {exp.association && (
                     <p className="text-foreground/70">{t('experience.associated')} {exp.association}</p>
                   )}
@@ -187,7 +187,7 @@ export default function Experience() {
                 <h4 className="text-lg font-semibold mb-3">{t('experience.technologies')}</h4>
                 <div className="flex flex-wrap gap-2">
                   {exp.technologies.map((tech, i) => (
-                    <span key={i} className="px-3 py-1 bg-blue-600/10 text-blue-600 dark:bg-blue-400/10 dark:text-blue-400 rounded-full text-sm">
+                    <span key={i} className="px-3 py-1 bg-[var(--accent-color)]/30 text-[var(--accent-color)]/90 dark:bg-[var(--accent-color)]/30 dark:text-[var(--accent-color)] rounded-full text-sm">
                       {tech}
                     </span>
                   ))}
@@ -211,7 +211,7 @@ export default function Experience() {
           </p>
           <a 
             href="#contact" 
-            className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors"
+            className="inline-block px-6 py-3 bg-[var(--accent-color)] hover:bg-[var(--accent-color)]/90 text-white font-medium rounded-lg transition-colors"
           >
             {t('experience.contact')}
           </a>

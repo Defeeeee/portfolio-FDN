@@ -44,7 +44,7 @@ export default function Skills() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold sm:text-4xl mb-4">{t('skills.title')}</h2>
-          <div className="h-1 w-20 bg-blue-600 dark:bg-blue-400 mx-auto"></div>
+          <div className="h-1 w-20 bg-[var(--accent-color)] mx-auto"></div>
           <p className="mt-6 text-lg text-foreground/70 max-w-3xl mx-auto">
             {t('skills.subtitle')}
           </p>
@@ -63,7 +63,7 @@ export default function Skills() {
                     </div>
                     <div className="w-full bg-foreground/10 rounded-full h-2.5">
                       <div 
-                        className="bg-blue-600 dark:bg-blue-400 h-2.5 rounded-full" 
+                        className="bg-[var(--accent-color)] h-2.5 rounded-full" 
                         style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>
@@ -76,19 +76,19 @@ export default function Skills() {
 
         <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           <div className="bg-background p-6 rounded-xl shadow-sm">
-            <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">3+</div>
+            <div className="text-4xl font-bold text-[var(--accent-color)]">3+</div>
             <div className="mt-2 text-lg font-medium">{t('skills.years')}</div>
           </div>
           <div className="bg-background p-6 rounded-xl shadow-sm">
-            <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">10+</div>
+            <div className="text-4xl font-bold text-[var(--accent-color)]">10+</div>
             <div className="mt-2 text-lg font-medium">{t('skills.projects')}</div>
           </div>
           <div className="bg-background p-6 rounded-xl shadow-sm">
-            <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">5+</div>
+            <div className="text-4xl font-bold text-[var(--accent-color)]">5+</div>
             <div className="mt-2 text-lg font-medium">{t('skills.technologies')}</div>
           </div>
           <div className="bg-background p-6 rounded-xl shadow-sm">
-            <div className="text-4xl font-bold text-blue-600 dark:text-blue-400">2</div>
+            <div className="text-4xl font-bold text-[var(--accent-color)]">2</div>
             <div className="mt-2 text-lg font-medium">{t('skills.languages')}</div>
           </div>
         </div>

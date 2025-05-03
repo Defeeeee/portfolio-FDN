@@ -99,7 +99,7 @@ export default function Education() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold sm:text-4xl mb-4">{t('education.title')}</h2>
-          <div className="h-1 w-20 bg-blue-600 dark:bg-blue-400 mx-auto"></div>
+          <div className="h-1 w-20 bg-[var(--accent-color)] mx-auto"></div>
           <p className="mt-6 text-lg text-foreground/70 max-w-3xl mx-auto">
             {t('education.subtitle')}
           </p>
@@ -111,7 +111,7 @@ export default function Education() {
               <div className="md:flex justify-between items-start mb-6">
                 <div>
                   <h3 className="text-2xl font-bold">{edu.institution}</h3>
-                  <p className="text-xl text-blue-600 dark:text-blue-400">{edu.degree}</p>
+                  <p className="text-xl text-[var(--accent-color)]">{edu.degree}</p>
                   <p className="text-foreground/70">{language === 'en' ? edu.field : (edu.fieldEs || edu.field)}</p>
                 </div>
                 <div className="mt-2 md:mt-0 md:text-right text-foreground/70">
@@ -141,13 +141,13 @@ export default function Education() {
               <h4 className="text-xl font-semibold mb-4">{t('education.certifications')}</h4>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-[var(--accent-color)] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span>First Certificate in English (Score 179)</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-[var(--accent-color)] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span>Certificación Médica Aeronáutica Clase II</span>
@@ -159,19 +159,19 @@ export default function Education() {
               <h4 className="text-xl font-semibold mb-4">{t('education.programs')}</h4>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-[var(--accent-color)] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span>Oxford Junior Programme, Goldsmiths UK</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-[var(--accent-color)] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span>Introductory Python Course 2023</span>
                 </li>
                 <li className="flex items-start">
-                  <svg className="h-6 w-6 text-blue-600 dark:text-blue-400 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-6 w-6 text-[var(--accent-color)] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <span>Intensive Typescript Course 2023</span>
