@@ -46,7 +46,7 @@ export default function Hero() {
           <h2 className="text-xl sm:text-2xl text-foreground/80">
             {t('hero.title')}
           </h2>
-          <p className="text-lg text-foreground/70 max-w-2xl mx-auto md:mx-0">
+          <p className="hidden md:block text-lg text-foreground/70 max-w-2xl mx-auto md:mx-0">
             {t('hero.subtitle')}
           </p>
           <div className="flex flex-wrap gap-4 pt-4 justify-center md:justify-start">
