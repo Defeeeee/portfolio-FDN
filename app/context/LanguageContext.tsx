@@ -52,8 +52,8 @@ const enTranslations: Record<string, string> = {
   'skills.languages': 'Languages Spoken',
 
   // Experience
-  'experience.title': 'Professional Experience',
-  'experience.subtitle': 'My professional journey in the tech industry, where I\'ve applied my skills to solve real-world problems.',
+  'experience.title': 'Experience',
+  'experience.subtitle': 'My journey in the tech industry, where I\'ve applied my skills to solve real-world problems.',
   'experience.description': 'Project Description',
   'experience.technologies': 'Technologies Used',
   'experience.opportunities': 'Looking for New Opportunities',
@@ -138,9 +138,9 @@ const esTranslations: Record<string, string> = {
   'about.certifications': 'Certificaciones',
   'about.journey': 'Mi Trayectoria',
   'about.education': 'Educación',
-  'about.education.desc': 'Actualmente cursando una carrera en Tecnologías de la Información y las Comunicaciones en ORT Argentina.',
+  'about.education.desc': 'Actualmente cursando la escuela secundaria con especialización en Tecnologías de la Información y las Comunicaciones en ORT Argentina.',
   'about.experience': 'Experiencia Profesional',
-  'about.experience.desc': 'Trabajé como Desarrollador de IA en FōrmAI, desarrollando redes neuronales para retroalimentación y corrección de postura.',
+  'about.experience.desc': 'Fui Desarrollador de IA en FōrmAI, desarrollando redes neuronales para retroalimentación y corrección de postura.',
   'about.aviation': 'Aviación',
   'about.aviation.desc': 'Cursando la licencia de piloto privado en Alef Aviación Patagónica.',
 

@@ -11,9 +11,9 @@ export default function Skills() {
         { name: "Python", level: 90 },
         { name: "TypeScript", level: 85 },
         { name: "JavaScript", level: 85 },
-        { name: "React", level: 80 },
-        { name: "Next.js", level: 75 },
-        { name: "HTML/CSS", level: 90 },
+        { name: "React", level: 65 },
+        { name: "Next.js", level: 55 },
+        { name: "HTML/CSS", level: 70 },
       ]
     },
     {
@@ -22,8 +22,6 @@ export default function Skills() {
         { name: "PyTorch", level: 80 },
         { name: "TensorFlow", level: 75 },
         { name: "Pandas", level: 85 },
-        { name: "NumPy", level: 85 },
-        { name: "Matplotlib", level: 80 },
         { name: "Data Analysis", level: 75 },
       ]
     },
@@ -34,7 +32,6 @@ export default function Skills() {
         { name: "Team Leadership", level: 80 },
         { name: "Project Management", level: 75 },
         { name: "Problem Solving", level: 90 },
-        { name: "Communication", level: 85 },
       ]
     }
   ];

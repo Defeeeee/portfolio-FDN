@@ -142,7 +142,7 @@ export default function Experience() {
         "Utilicé matplotlib, pandas y numpy para el manejo de datos y tareas de ingeniería.",
         "Extraje puntos de referencia de postura utilizando opencv y Google mediapipe para una guía mejorada del usuario."
       ],
-      technologies: ["PyTorch", "TensorFlow", "Pandas", "NumPy", "Matplotlib", "OpenCV", "Mediapipe"]
+      technologies: ["PyTorch", "OpenCV", "Mediapipe"]
     }
   ];
 
